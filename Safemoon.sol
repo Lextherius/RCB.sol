@@ -1,29 +1,3 @@
-/**
- *Submitted for verification at BscScan.com on 2021-04-26
-*/
-
-/**
- *Submitted for verification at BscScan.com on 2021-04-26
-*/
-
-/**
- *Submitted for verification at BscScan.com on 2021-04-26
-*/
-
-/**
-  
-   #BEE
-   
-   #LIQ+#RFI+#SHIB+#DOGE = #BEE
-
-   #ReduceCarbon features:
-   3% fee auto add to the liquidity pool to locked forever when selling
-   5% fee auto distribute to all holders
-   I created a black hole so #Bee token will deflate itself in supply with every transaction
-   50% Supply is burned at start.
-   
-
- */
 
 pragma solidity ^0.6.12;
 // SPDX-License-Identifier: Unlicensed
@@ -1163,8 +1137,4 @@ contract ReduceCarbon is Context, IERC20, Ownable {
         _reflectFee(rFee, tFee);
         emit Transfer(sender, recipient, tTransferAmount);
     }
-
-
-    
-
 }
